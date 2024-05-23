@@ -1,0 +1,17 @@
+name,bus,p_nom,p_nom_extendable,p_min_pu,carrier,capital_cost,cyclic_state_of_charge,max_hours,efficiency_store,efficiency_dispatch,build_year
+PL DS battery,PL DS,0,TRUE,-1,battery,519116.74,TRUE,6,0.9,0.9,0
+PL KP battery,PL KP,0,TRUE,-1,battery,519116.74,TRUE,6,0.9,0.9,0
+PL LB battery,PL LB,0,TRUE,-1,battery,519116.74,TRUE,6,0.9,0.9,0
+PL LD battery,PL LD,0,TRUE,-1,battery,519116.74,TRUE,6,0.9,0.9,0
+PL LU battery,PL LU,0,TRUE,-1,battery,519116.74,TRUE,6,0.9,0.9,0
+PL MA battery,PL MA,0,TRUE,-1,battery,519116.74,TRUE,6,0.9,0.9,0
+PL MZ battery,PL MZ,0,TRUE,-1,battery,519116.74,TRUE,6,0.9,0.9,0
+PL OP battery,PL OP,0,TRUE,-1,battery,519116.74,TRUE,6,0.9,0.9,0
+PL PD battery,PL PD,0,TRUE,-1,battery,519116.74,TRUE,6,0.9,0.9,0
+PL PK battery,PL PK,0,TRUE,-1,battery,519116.74,TRUE,6,0.9,0.9,0
+PL PM battery,PL PM,0,TRUE,-1,battery,519116.74,TRUE,6,0.9,0.9,0
+PL SK battery,PL SK,0,TRUE,-1,battery,519116.74,TRUE,6,0.9,0.9,0
+PL SL battery,PL SL,0,TRUE,-1,battery,519116.74,TRUE,6,0.9,0.9,0
+PL WN battery,PL WN,0,TRUE,-1,battery,519116.74,TRUE,6,0.9,0.9,0
+PL WP battery,PL WP,0,TRUE,-1,battery,519116.74,TRUE,6,0.9,0.9,0
+PL ZP battery,PL ZP,0,TRUE,-1,battery,519116.74,TRUE,6,0.9,0.9,0

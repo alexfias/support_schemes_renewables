@@ -1,0 +1,118 @@
+name,bus,area,category,carrier,technology,p_nom,p_nom_max,p_min_pu,p_max_pu,p_min_pu_annual,p_max_pu_annual,efficiency,marginal_cost,capital_cost,technology_year,build_year,retire_year,lifetime,min_up_time,min_down_time,control,up_time_before,down_time_before,sector,technology_bundle,p_min_pu_stable,is_primary_reserve,is_tertiary_reserve,is_cold_reserve,primary_reserve_ramp_limit_up,primary_reserve_ramp_limit_down,tertiary_reserve_ramp_limit_up,p_nom_extendable
+PL DS coal,PL DS,PL,Hard coal CHP,Hard coal,Hard coal,414.9,,0,0.91,0,0.819,0.547,237,235000,2020,2025,2025,1,0,0,PQ,1,0,electricity,electricity,0.4095,TRUE,TRUE,TRUE,,,,FALSE
+PL KP coal,PL KP,PL,Hard coal CHP,Hard coal,Hard coal,177,,0,0.91,0,0.819,0.547,251,235000,2020,2025,2025,1,0,0,PQ,1,0,electricity,electricity,0.4095,TRUE,TRUE,TRUE,,,,FALSE
+PL LD coal,PL LD,PL,Hard coal CHP,Hard coal,Hard coal,365,,0,0.91,0,0.819,0.547,242.4,235000,2020,2025,2025,1,0,0,PQ,1,0,electricity,electricity,0.4095,TRUE,TRUE,TRUE,,,,FALSE
+PL LU coal,PL LU,PL,Hard coal CHP,Hard coal,Hard coal,44,,0,0.91,0,0.819,0.4158,306,235000,2020,2025,2025,1,0,0,PQ,1,0,electricity,electricity,0.4095,TRUE,TRUE,TRUE,,,,FALSE
+PL MA coal,PL MA,PL,Hard coal CHP,Hard coal,Hard coal,1387,,0,0.91,0,0.819,0.415,323.8,235000,2020,2025,2025,1,0,0,PQ,1,0,electricity,electricity,0.4095,TRUE,TRUE,TRUE,,,,FALSE
+PL MZ coal,PL MZ,PL,Hard coal CHP,Hard coal,Hard coal,5742.8,,0,0.91,0,0.819,0.415,326,235000,2020,2025,2025,1,0,0,PQ,1,0,electricity,electricity,0.4095,TRUE,TRUE,TRUE,,,,FALSE
+PL OP coal,PL OP,PL,Hard coal CHP,Hard coal,Hard coal,3408,,0,0.91,0,0.819,0.416,311,235000,2020,2025,2025,1,0,0,PQ,1,0,electricity,electricity,0.4095,TRUE,TRUE,TRUE,,,,FALSE
+PL PD coal,PL PD,PL,Hard coal CHP,Hard coal,Hard coal,148.5,,0,0.91,0,0.819,0.5474,248,235000,2020,2025,2025,1,0,0,PQ,1,0,electricity,electricity,0.4095,TRUE,TRUE,TRUE,,,,FALSE
+PL PK coal,PL PK,PL,Hard coal CHP,Hard coal,Hard coal,273.7,,0,0.91,0,0.819,0.34,393.5,235000,2020,2025,2025,1,0,0,PQ,1,0,electricity,electricity,0.4095,TRUE,TRUE,TRUE,,,,FALSE
+PL PM coal,PL PM,PL,Hard coal CHP,Hard coal,Hard coal,330.8,,0,0.91,0,0.819,0.5474,261,235000,2020,2025,2025,1,0,0,PQ,1,0,electricity,electricity,0.4095,TRUE,TRUE,TRUE,,,,FALSE
+PL SK coal,PL SK,PL,Hard coal CHP,Hard coal,Hard coal,1365,,0,0.91,0,0.819,0.34,394,235000,2020,2025,2025,1,0,0,PQ,1,0,electricity,electricity,0.4095,TRUE,TRUE,TRUE,,,,FALSE
+PL SL coal,PL SL,PL,Hard coal CHP,Hard coal,Hard coal,7250.75,,0,0.91,0,0.819,0.3865,334.07,235000,2020,2025,2025,1,0,0,PQ,1,0,electricity,electricity,0.4095,TRUE,TRUE,TRUE,,,,FALSE
+PL WN coal,PL WN,PL,Hard coal CHP,Hard coal,Hard coal,49,,0,0.91,0,0.819,0.5474,261,235000,2020,2025,2025,1,0,0,PQ,1,0,electricity,electricity,0.4095,TRUE,TRUE,TRUE,,,,FALSE
+PL WP coal,PL WP,PL,Hard coal CHP,Hard coal,Hard coal,555,,0,0.91,0,0.819,0.312,436.86,235000,2020,2025,2025,1,0,0,PQ,1,0,electricity,electricity,0.4095,TRUE,TRUE,TRUE,,,,FALSE
+PL ZP coal,PL ZP,PL,Hard coal CHP,Hard coal,Hard coal,1486.2,,0,0.91,0,0.819,0.3541,407.92,235000,2020,2025,2025,1,0,0,PQ,1,0,electricity,electricity,0.4095,TRUE,TRUE,TRUE,,,,FALSE
+PL DS gas,PL DS,PL,JWCD,Natural gas,Natural gas,179.4,,0,0.98,0,0.907,0.6039,454,160640.473,2020,2025,2025,1,0,0,PQ,1,0,electricity,electricity,0.392,TRUE,TRUE,TRUE,0.025,0.025,1,FALSE
+PL KP gas,PL KP,PL,JWCD,Natural gas,Natural gas,1156.1,,0,0.98,0,0.907,0.6039,454,160640.473,2020,2025,2025,1,0,0,PQ,1,0,electricity,electricity,0.392,TRUE,TRUE,TRUE,0.025,0.025,1,FALSE
+PL LB gas,PL LB,PL,JWCD,Natural gas,Natural gas,434.88,,0,0.98,0,0.907,0.6039,454,160640.473,2020,2025,2025,1,0,0,PQ,1,0,electricity,electricity,0.392,TRUE,TRUE,TRUE,0.025,0.025,1,FALSE
+PL LU gas,PL LU,PL,JWCD,Natural gas,Natural gas,246.5,,0,0.98,0,0.907,0.6039,454,160640.473,2020,2025,2025,1,0,0,PQ,1,0,electricity,electricity,0.392,TRUE,TRUE,TRUE,0.025,0.025,1,FALSE
+PL MA gas,PL MA,PL,JWCD,Natural gas,Natural gas,115,,0,0.98,0,0.907,0.6039,454,160640.473,2020,2025,2025,1,0,0,PQ,1,0,electricity,electricity,0.392,TRUE,TRUE,TRUE,0.025,0.025,1,FALSE
+PL MZ gas,PL MZ,PL,JWCD,Natural gas,Natural gas,4009.2,,0,0.98,0,0.907,0.6039,454,160640.473,2020,2025,2025,1,0,0,PQ,1,0,electricity,electricity,0.392,TRUE,TRUE,TRUE,0.025,0.025,1,FALSE
+PL PD gas,PL PD,PL,JWCD,Natural gas,Natural gas,55,,0,0.98,0,0.907,0.6039,454,160640.473,2020,2025,2025,1,0,0,PQ,1,0,electricity,electricity,0.392,TRUE,TRUE,TRUE,0.025,0.025,1,FALSE
+PL PK gas,PL PK,PL,JWCD,Natural gas,Natural gas,712.1,,0,0.98,0,0.907,0.6039,454,160640.473,2020,2025,2025,1,0,0,PQ,1,0,electricity,electricity,0.392,TRUE,TRUE,TRUE,0.025,0.025,1,FALSE
+PL PM gas,PL PM,PL,JWCD,Natural gas,Natural gas,450,,0,0.98,0,0.907,0.6039,454,160640.473,2020,2025,2025,1,0,0,PQ,1,0,electricity,electricity,0.392,TRUE,TRUE,TRUE,0.025,0.025,1,FALSE
+PL SL gas,PL SL,PL,JWCD,Natural gas,Natural gas,1200,,0,0.98,0,0.907,0.6039,454,160640.473,2020,2025,2025,1,0,0,PQ,1,0,electricity,electricity,0.392,TRUE,TRUE,TRUE,0.025,0.025,1,FALSE
+PL WP gas,PL WP,PL,JWCD,Natural gas,Natural gas,722,,0,0.98,0,0.907,0.6039,454,160640.473,2020,2025,2025,1,0,0,PQ,1,0,electricity,electricity,0.392,TRUE,TRUE,TRUE,0.025,0.025,1,FALSE
+PL ZP gas,PL ZP,PL,JWCD,Natural gas,Natural gas,1400,,0,0.98,0,0.907,0.6039,454,160640.473,2020,2025,2025,1,0,0,PQ,1,0,electricity,electricity,0.392,TRUE,TRUE,TRUE,0.025,0.025,1,FALSE
+PL DS lignite,PL DS,PL,JWCD,Lignite,Lignite,2059.47,,0,0.92,0,0.828,0.369,346,235000,2020,2025,2025,1,0,0,PQ,1,0,electricity,electricity,0.414,TRUE,TRUE,TRUE,0.02,0.02,1,FALSE
+PL LD lignite,PL LD,PL,JWCD,Lignite,Lignite,5140.9,,0,0.92,0,0.828,0.386,328.7,235000,2020,2025,2025,1,0,0,PQ,1,0,electricity,electricity,0.414,TRUE,TRUE,TRUE,0.02,0.02,1,FALSE
+PL WP lignite,PL WP,PL,JWCD,Lignite,Lignite,1801.4,,0,0.92,0,0.828,0.3401,379.09,235000,2020,2025,2025,1,0,0,PQ,1,0,electricity,electricity,0.414,TRUE,TRUE,TRUE,0.02,0.02,1,FALSE
+PL LB bio,PL LB,PL,Biogas plant,Biogas plant,Bio,59,,0,1,0,0.973,0.3475,232,1052213.498,2015,2020,2039,20,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,FALSE
+PL PD bio,PL PD,PL,Biogas plant,Biogas plant,Bio,55,,0,1,0,0.973,0.3475,234,1052213.498,2015,2020,2039,20,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,FALSE
+PL SK bio,PL SK,PL,Biogas plant,Biogas plant,Bio,230,,0,1,0,0.973,0.331,226,1052213.498,2015,2020,2039,20,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,FALSE
+PL SL bio,PL SL,PL,Biogas plant,Biogas plant,Bio,90,,0,1,0,0.973,0.3475,235,1052213.498,2015,2020,2039,20,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,FALSE
+PL WN bio,PL WN,PL,Biogas plant,Biogas plant,Bio,25,,0,1,0,0.973,0.3475,145,1052213.498,2015,2020,2039,20,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,FALSE
+PL WP bio,PL WP,PL,Biogas plant,Biogas plant,Bio,100,,0,1,0,0.973,0.3475,232,1052213.498,2015,2020,2039,20,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,FALSE
+PL ZP bio,PL ZP,PL,Biogas plant,Biogas plant,Bio,76,,0,1,0,0.973,0.3475,278,1052213.498,2015,2020,2039,20,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,FALSE
+PL DS VESTAS V90,PL DS,PL,Wind onshore,wind,VESTAS V90,0,,0,1,0,1,1,8.71,489057.69,2020,2025,2044,20,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL KP VESTAS V90,PL KP,PL,Wind onshore,wind,VESTAS V90,0,,0,1,0,1,1,8.71,489057.69,2020,2025,2044,20,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL LB VESTAS V90,PL LB,PL,Wind onshore,wind,VESTAS V90,0,,0,1,0,1,1,8.71,489057.69,2020,2025,2044,20,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL LD VESTAS V90,PL LD,PL,Wind onshore,wind,VESTAS V90,0,,0,1,0,1,1,8.71,489057.69,2020,2025,2044,20,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL LU VESTAS V90,PL LU,PL,Wind onshore,wind,VESTAS V90,0,,0,1,0,1,1,8.71,489057.69,2020,2025,2044,20,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL MA VESTAS V90,PL MA,PL,Wind onshore,wind,VESTAS V90,0,,0,1,0,1,1,8.71,489057.69,2020,2025,2044,20,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL MZ VESTAS V90,PL MZ,PL,Wind onshore,wind,VESTAS V90,0,,0,1,0,1,1,8.71,489057.69,2020,2025,2044,20,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL OP VESTAS V90,PL OP,PL,Wind onshore,wind,VESTAS V90,0,,0,1,0,1,1,8.71,489057.69,2020,2025,2044,20,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL PD VESTAS V90,PL PD,PL,Wind onshore,wind,VESTAS V90,0,,0,1,0,1,1,8.71,489057.69,2020,2025,2044,20,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL PK VESTAS V90,PL PK,PL,Wind onshore,wind,VESTAS V90,0,,0,1,0,1,1,8.71,489057.69,2020,2025,2044,20,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL PM VESTAS V90,PL PM,PL,Wind onshore,wind,VESTAS V90,0,,0,1,0,1,1,8.71,489057.69,2020,2025,2044,20,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL SK VESTAS V90,PL SK,PL,Wind onshore,wind,VESTAS V90,0,,0,1,0,1,1,8.71,489057.69,2020,2025,2044,20,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL SL VESTAS V90,PL SL,PL,Wind onshore,wind,VESTAS V90,0,,0,1,0,1,1,8.71,489057.69,2020,2025,2044,20,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL WN VESTAS V90,PL WN,PL,Wind onshore,wind,VESTAS V90,0,,0,1,0,1,1,8.71,489057.69,2020,2025,2044,20,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL WP VESTAS V90,PL WP,PL,Wind onshore,wind,VESTAS V90,0,,0,1,0,1,1,8.71,489057.69,2020,2025,2044,20,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL ZP VESTAS V90,PL ZP,PL,Wind onshore,wind,VESTAS V90,0,,0,1,0,1,1,8.71,489057.69,2020,2025,2044,20,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL DS PV1,PL DS,PL,PV ground,PV ground,PV1,0,,0,1,0,1,1,0.935,227440.56,2020,2025,2049,25,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL KP PV1,PL KP,PL,PV ground,PV ground,PV1,0,,0,1,0,1,1,0.935,227440.56,2020,2025,2049,25,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL LB PV1,PL LB,PL,PV ground,PV ground,PV1,0,,0,1,0,1,1,0.935,227440.56,2020,2025,2049,25,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL LD PV1,PL LD,PL,PV ground,PV ground,PV1,0,,0,1,0,1,1,0.935,227440.56,2020,2025,2049,25,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL LU PV1,PL LU,PL,PV ground,PV ground,PV1,0,,0,1,0,1,1,0.935,227440.56,2020,2025,2049,25,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL MA PV1,PL MA,PL,PV ground,PV ground,PV1,0,,0,1,0,1,1,0.935,227440.56,2020,2025,2049,25,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL MZ PV1,PL MZ,PL,PV ground,PV ground,PV1,0,,0,1,0,1,1,0.935,227440.56,2020,2025,2049,25,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL OP PV1,PL OP,PL,PV ground,PV ground,PV1,0,,0,1,0,1,1,0.935,227440.56,2020,2025,2049,25,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL PD PV1,PL PD,PL,PV ground,PV ground,PV1,0,,0,1,0,1,1,0.935,227440.56,2020,2025,2049,25,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL PK PV1,PL PK,PL,PV ground,PV ground,PV1,0,,0,1,0,1,1,0.935,227440.56,2020,2025,2049,25,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL PM PV1,PL PM,PL,PV ground,PV ground,PV1,0,,0,1,0,1,1,0.935,227440.56,2020,2025,2049,25,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL SK PV1,PL SK,PL,PV ground,PV ground,PV1,0,,0,1,0,1,1,0.935,227440.56,2020,2025,2049,25,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL SL PV1,PL SL,PL,PV ground,PV ground,PV1,0,,0,1,0,1,1,0.935,227440.56,2020,2025,2049,25,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL WN PV1,PL WN,PL,PV ground,PV ground,PV1,0,,0,1,0,1,1,0.935,227440.56,2020,2025,2049,25,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL WP PV1,PL WP,PL,PV ground,PV ground,PV1,0,,0,1,0,1,1,0.935,227440.56,2020,2025,2049,25,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL ZP PV1,PL ZP,PL,PV ground,PV ground,PV1,0,,0,1,0,1,1,0.935,227440.56,2020,2025,2049,25,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL DS VESTAS V110,PL DS,PL,Wind onshore,wind,VESTAS V110,0,,0,1,0,1,1,8.71,831398.07,2020,2025,2044,20,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL KP VESTAS V110,PL KP,PL,Wind onshore,wind,VESTAS V110,0,,0,1,0,1,1,8.71,831398.07,2020,2025,2044,20,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL LB VESTAS V110,PL LB,PL,Wind onshore,wind,VESTAS V110,0,,0,1,0,1,1,8.71,831398.07,2020,2025,2044,20,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL LD VESTAS V110,PL LD,PL,Wind onshore,wind,VESTAS V110,0,,0,1,0,1,1,8.71,831398.07,2020,2025,2044,20,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL LU VESTAS V110,PL LU,PL,Wind onshore,wind,VESTAS V110,0,,0,1,0,1,1,8.71,831398.07,2020,2025,2044,20,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL MA VESTAS V110,PL MA,PL,Wind onshore,wind,VESTAS V110,0,,0,1,0,1,1,8.71,831398.07,2020,2025,2044,20,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL MZ VESTAS V110,PL MZ,PL,Wind onshore,wind,VESTAS V110,0,,0,1,0,1,1,8.71,831398.07,2020,2025,2044,20,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL OP VESTAS V110,PL OP,PL,Wind onshore,wind,VESTAS V110,0,,0,1,0,1,1,8.71,831398.07,2020,2025,2044,20,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL PD VESTAS V110,PL PD,PL,Wind onshore,wind,VESTAS V110,0,,0,1,0,1,1,8.71,831398.07,2020,2025,2044,20,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL PK VESTAS V110,PL PK,PL,Wind onshore,wind,VESTAS V110,0,,0,1,0,1,1,8.71,831398.07,2020,2025,2044,20,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL PM VESTAS V110,PL PM,PL,Wind onshore,wind,VESTAS V110,0,,0,1,0,1,1,8.71,831398.07,2020,2025,2044,20,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL SK VESTAS V110,PL SK,PL,Wind onshore,wind,VESTAS V110,0,,0,1,0,1,1,8.71,831398.07,2020,2025,2044,20,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL SL VESTAS V110,PL SL,PL,Wind onshore,wind,VESTAS V110,0,,0,1,0,1,1,8.71,831398.07,2020,2025,2044,20,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL WN VESTAS V110,PL WN,PL,Wind onshore,wind,VESTAS V110,0,,0,1,0,1,1,8.71,831398.07,2020,2025,2044,20,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL WP VESTAS V110,PL WP,PL,Wind onshore,wind,VESTAS V110,0,,0,1,0,1,1,8.71,831398.07,2020,2025,2044,20,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL ZP VESTAS V110,PL ZP,PL,Wind onshore,wind,VESTAS V110,0,,0,1,0,1,1,8.71,831398.07,2020,2025,2044,20,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL DS PV2,PL DS,PL,PV ground,PV ground,PV2,0,,0,1,0,1,1,0.935,227440.56,2020,2025,2049,25,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL KP PV2,PL KP,PL,PV ground,PV ground,PV2,0,,0,1,0,1,1,0.935,227440.56,2020,2025,2049,25,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL LB PV2,PL LB,PL,PV ground,PV ground,PV2,0,,0,1,0,1,1,0.935,227440.56,2020,2025,2049,25,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL LD PV2,PL LD,PL,PV ground,PV ground,PV2,0,,0,1,0,1,1,0.935,227440.56,2020,2025,2049,25,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL LU PV2,PL LU,PL,PV ground,PV ground,PV2,0,,0,1,0,1,1,0.935,227440.56,2020,2025,2049,25,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL MA PV2,PL MA,PL,PV ground,PV ground,PV2,0,,0,1,0,1,1,0.935,227440.56,2020,2025,2049,25,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL MZ PV2,PL MZ,PL,PV ground,PV ground,PV2,0,,0,1,0,1,1,0.935,227440.56,2020,2025,2049,25,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL OP PV2,PL OP,PL,PV ground,PV ground,PV2,0,,0,1,0,1,1,0.935,227440.56,2020,2025,2049,25,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL PD PV2,PL PD,PL,PV ground,PV ground,PV2,0,,0,1,0,1,1,0.935,227440.56,2020,2025,2049,25,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL PK PV2,PL PK,PL,PV ground,PV ground,PV2,0,,0,1,0,1,1,0.935,227440.56,2020,2025,2049,25,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL PM PV2,PL PM,PL,PV ground,PV ground,PV2,0,,0,1,0,1,1,0.935,227440.56,2020,2025,2049,25,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL SK PV2,PL SK,PL,PV ground,PV ground,PV2,0,,0,1,0,1,1,0.935,227440.56,2020,2025,2049,25,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL SL PV2,PL SL,PL,PV ground,PV ground,PV2,0,,0,1,0,1,1,0.935,227440.56,2020,2025,2049,25,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL WN PV2,PL WN,PL,PV ground,PV ground,PV2,0,,0,1,0,1,1,0.935,227440.56,2020,2025,2049,25,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL WP PV2,PL WP,PL,PV ground,PV ground,PV2,0,,0,1,0,1,1,0.935,227440.56,2020,2025,2049,25,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL ZP PV2,PL ZP,PL,PV ground,PV ground,PV2,0,,0,1,0,1,1,0.935,227440.56,2020,2025,2049,25,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL DS PV3,PL DS,PL,PV ground,PV ground,PV3,0,,0,1,0,1,1,0.935,227440.56,2020,2025,2049,25,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL KP PV3,PL KP,PL,PV ground,PV ground,PV3,0,,0,1,0,1,1,0.935,227440.56,2020,2025,2049,25,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL LB PV3,PL LB,PL,PV ground,PV ground,PV3,0,,0,1,0,1,1,0.935,227440.56,2020,2025,2049,25,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL LD PV3,PL LD,PL,PV ground,PV ground,PV3,0,,0,1,0,1,1,0.935,227440.56,2020,2025,2049,25,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL LU PV3,PL LU,PL,PV ground,PV ground,PV3,0,,0,1,0,1,1,0.935,227440.56,2020,2025,2049,25,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL MA PV3,PL MA,PL,PV ground,PV ground,PV3,0,,0,1,0,1,1,0.935,227440.56,2020,2025,2049,25,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL MZ PV3,PL MZ,PL,PV ground,PV ground,PV3,0,,0,1,0,1,1,0.935,227440.56,2020,2025,2049,25,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL OP PV3,PL OP,PL,PV ground,PV ground,PV3,0,,0,1,0,1,1,0.935,227440.56,2020,2025,2049,25,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL PD PV3,PL PD,PL,PV ground,PV ground,PV3,0,,0,1,0,1,1,0.935,227440.56,2020,2025,2049,25,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL PK PV3,PL PK,PL,PV ground,PV ground,PV3,0,,0,1,0,1,1,0.935,227440.56,2020,2025,2049,25,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL PM PV3,PL PM,PL,PV ground,PV ground,PV3,0,,0,1,0,1,1,0.935,227440.56,2020,2025,2049,25,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL SK PV3,PL SK,PL,PV ground,PV ground,PV3,0,,0,1,0,1,1,0.935,227440.56,2020,2025,2049,25,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL SL PV3,PL SL,PL,PV ground,PV ground,PV3,0,,0,1,0,1,1,0.935,227440.56,2020,2025,2049,25,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL WN PV3,PL WN,PL,PV ground,PV ground,PV3,0,,0,1,0,1,1,0.935,227440.56,2020,2025,2049,25,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL WP PV3,PL WP,PL,PV ground,PV ground,PV3,0,,0,1,0,1,1,0.935,227440.56,2020,2025,2049,25,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
+PL ZP PV3,PL ZP,PL,PV ground,PV ground,PV3,0,,0,1,0,1,1,0.935,227440.56,2020,2025,2049,25,0,0,PQ,1,0,electricity,electricity,,FALSE,FALSE,FALSE,,,,TRUE
