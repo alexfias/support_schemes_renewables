@@ -1,0 +1,21 @@
+# List of scenarios
+scenarios:
+  - base
+  co2_price:
+      start: 0
+      end: 100
+      step: 5
+  fit:   
+      start: 1.0
+      end: 20.0
+      step: 1.0
+  storage_cost:
+  fossil_cost:
+  transmission_expansion:
+  weather_years:
+  
+# Global parameters 
+global_parameters:
+  simulation_start: "2020-01-01"
+  simulation_end: "2020-12-31"
+  time_resolution: "1H"
