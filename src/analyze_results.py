@@ -71,7 +71,12 @@ def calculate_market_prices(network,per_tech=False):
     
     if per_tech:
         # Calculate the market price of each technology as the average revenue per unit of energy dispatched
-        return (market_price_per_tech[network.generators[network.generators['technology']==tech].index] * network.generators_t.p[network.generators[network.generators['technology'] == tech].index].sum()).sum()/network.generators_t.p[network.generators[network.generators['technology'] == tech].index].sum().sum()
+        market_prices_per_tech = {}
+        for tech in network.generators['technology'].unique():
+            tech_indices = network.generators[network.generators['technology'] == tech].index
+            tech_market_price = (market_price_per_tech[tech_indices] * network.generators_t.p.loc[:, tech_indices].sum()).sum() / network.generators_t.p.loc[:, tech_indices].sum().sum()
+            market_prices_per_tech[tech] = tech_market_price
+        return pd.Series(market_prices_per_tech, name="Market Price per Technology")    
     else:
         return market_price_per_tech
 
