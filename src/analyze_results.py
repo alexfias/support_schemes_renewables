@@ -1,6 +1,7 @@
 import pandas as pd
 import pypsa
 
+
 def calculate_generation_shares_per_tech(network):
     """
     Calculate the share of generated energy per technology in the PyPSA network.
@@ -32,3 +33,45 @@ def calculate_generation_shares_per_tech(network):
 # Assuming 'network' is a PyPSA Network object that has been properly initialized and run.
 # generation_shares = calculate_generation_shares_per_tech(network)
 # print(generation_shares)
+
+
+def calculate_market_price_of_tech(network):
+    """
+    Calculate the market price of a technology as the average revenue per energy unit dispatched.
+
+    Parameters:
+    network (pypsa.Network): The PyPSA network object containing the simulation results.
+
+    Returns:
+    pd.DataFrame: A DataFrame where each element represents the revenue per energy unit dispatched
+                  for each generator over time.
+    """
+    # Extract power generation (in MW)
+    generators_p = network.generators_t.p
+
+    # Extract marginal prices (in €/MWh)
+    marginal_prices = network.buses_t.marginal_price
+
+    # Map generators to their buses
+    generators_buses = network.generators.bus
+
+    # Create an empty DataFrame to store the aligned marginal prices
+    aligned_marginal_prices = pd.DataFrame(index=generators_p.index, columns=generators_p.columns)
+
+    # Align the marginal prices with the generators
+    for gen in generators_p.columns:
+        bus = generators_buses.loc[gen]
+        aligned_marginal_prices[gen] = marginal_prices[bus]
+
+    # Multiply generators power with marginal prices at the corresponding bus to get the revenue
+    revenue = generators_p * aligned_marginal_prices
+
+    # Calculate the market price of each technology as the average revenue per unit of energy dispatched
+    market_price_per_tech = revenue.mean() / generators_p.mean()
+
+    return market_price_per_tech
+
+# Example usage:
+# Assuming 'network' is a PyPSA Network object that has been properly initialized and run.
+# market_prices = calculate_market_price_of_tech(network)
+# print(market_prices)
