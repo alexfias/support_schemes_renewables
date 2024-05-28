@@ -35,7 +35,7 @@ def calculate_generation_shares_per_tech(network):
 # print(generation_shares)
 
 
-def calculate_market_price_of_tech(network):
+def calculate_market_prices(network,per_tech=False):
     """
     Calculate the market price of a technology as the average revenue per energy unit dispatched.
 
@@ -66,10 +66,14 @@ def calculate_market_price_of_tech(network):
     # Multiply generators power with marginal prices at the corresponding bus to get the revenue
     revenue = generators_p * aligned_marginal_prices
 
-    # Calculate the market price of each technology as the average revenue per unit of energy dispatched
+    # Calculate the market price of each generator as the average revenue per unit of energy dispatched
     market_price_per_tech = revenue.mean() / generators_p.mean()
-
-    return market_price_per_tech
+    
+    if per_tech:
+        # Calculate the market price of each technology as the average revenue per unit of energy dispatched
+        return (market_price_per_tech[network.generators[network.generators['technology']==tech].index] * network.generators_t.p[network.generators[network.generators['technology'] == tech].index].sum()).sum()/network.generators_t.p[network.generators[network.generators['technology'] == tech].index].sum().sum()
+    else:
+        return market_price_per_tech
 
 # Example usage:
 # Assuming 'network' is a PyPSA Network object that has been properly initialized and run.
