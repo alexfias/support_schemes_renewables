@@ -12,6 +12,8 @@ def apply_co2_price(network, co2_price):
         if 'co2' in carrier:
             network.carriers.at[carrier, 'co2_emissions'] *= co2_price
 
+    return network
+
 
 def update_network_with_scenario(network, scenario_config):
     """
