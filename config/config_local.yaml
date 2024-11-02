@@ -1,0 +1,4 @@
+# This is a template for the local configuration file.
+# Copy this file to 'config_local.yaml' and fill in your local paths.
+
+main_path: "/path/to/your/local/directory"
