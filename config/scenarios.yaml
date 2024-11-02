@@ -1,0 +1,36 @@
+# This is the configuration file for different energy system scenarios
+
+- name: "base"
+  updates:
+  filename: "base"
+
+- name: "Fossil price at 50%"
+  updates:
+    fossil_prices: 0.5
+  filename: "fossil_prices_0_5"
+  
+- name: "Fossil price at 80%"
+  updates:
+    fossil_prices: 0.8
+  filename: "fossil_prices_0_8"
+
+- name: "Storage cost at 50%"
+  updates:
+    storage_cost: 0.5
+  filename: "storage_cost_0_5"  
+
+- name: "Storage cost at 150%"
+  updates:
+    storage_cost: 0.5
+  filename: "storage_cost_0_5"  
+
+- name: "Storage cost at 150%"
+  updates:
+    storage_cost: 0.5
+  filename: "storage_cost_0_5"  
+
+- name: "Transmission expansion at 3x"
+  updates:
+    transmission_expansion: 3.0
+  filename: "transmission_expansion_3_0" 
+  
