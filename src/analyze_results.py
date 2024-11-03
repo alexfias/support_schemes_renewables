@@ -84,3 +84,29 @@ def calculate_market_prices(network,per_tech=False):
 # Assuming 'network' is a PyPSA Network object that has been properly initialized and run.
 # market_prices = calculate_market_price_of_tech(network)
 # print(market_prices)
+
+
+def calculate_market_values_per_tech(network):
+
+    generator_techs = network.generators.carrier.unique()
+    market_values = {}
+    
+    for tech in generator_techs:            
+        generators_of_tech = network.generators.index[network.generators.carrier == tech]
+        
+        # Get the corresponding buses for these generators
+        buses_of_tech = network.generators.loc[generators_of_tech, 'bus']
+        
+        # Get the generation data and marginal prices aligned with these generators
+        generation_data = network.generators_t.p[generators_of_tech]
+        marginal_prices = network.buses_t.marginal_price[buses_of_tech.values].values
+        
+        # Calculate the total generation and total weighted price for the current technology
+        total_generation = generation_data.sum().sum()
+        total_weighted_price = (generation_data * marginal_prices).sum().sum()
+        
+        # Calculate the market value for the current technology
+        market_value = total_weighted_price / total_generation if total_generation != 0 else 0
+        market_values[tech] = market_value/4.57
+        
+    return market_values
